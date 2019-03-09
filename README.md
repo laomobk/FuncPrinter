@@ -5,7 +5,7 @@
 main.py --> 程序本体
 fpconf.py --> 程序配置文件
 
-## ABOUT 'fpconf':
+### ABOUT 'fpconf':
 
 SCREEN_HEIGHT -> 屏幕高度
 SCREEN_WIDTH  -> 屏幕宽度
@@ -26,3 +26,33 @@ ZOOM_OUT_STEP -> 最大的放大次数
 ZOOM_IN_STEP  -> 最大的缩小次数 
 
 SHOW_POS -> 是否显示测试坐标（废除）
+
+### 常用指令
+
+ml -> 左移视角
+mr -> 又移视角
+md -> 下移视角
+mu -> 上移视角
+
+zoomxin -> X轴放大
+zoomxout -> X轴缩小
+zoomyxin -> Y轴放大
+zoomyout -> Y轴缩小
+
+draw -> 绘制
+
+delete [name] -> 删除名为name的函数
+
+clear -> 清除所有函数
+
+
+### 使用事项
+
+函数语法： [name] = [formula]
+
+#### 注意：函数内必须包含 x ，且不支持a,b,c...
+
+一个正确的函数例子:
+  y = x ** 2
+  
+  (使用python的语法)
