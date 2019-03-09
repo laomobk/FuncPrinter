@@ -5,7 +5,7 @@
 main.py --> 程序本体
 fpconf.py --> 程序配置文件
 
-##ABOUT 'fpconf':
+## ABOUT 'fpconf':
 
 SCREEN_HEIGHT -> 屏幕高度
 SCREEN_WIDTH  -> 屏幕宽度
